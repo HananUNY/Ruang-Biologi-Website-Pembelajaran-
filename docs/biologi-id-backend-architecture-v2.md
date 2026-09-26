@@ -1,12 +1,12 @@
-# Biologi.id — Backend & Teacher Authoring Specification
+# EduPlatform — Backend & Teacher Authoring Specification
 
-> Dokumen ini merupakan spesifikasi backend untuk **Biologi.id**, khususnya untuk memastikan guru dapat membuat, mengunggah, mengedit, mengorganisasi, memublikasikan, dan memelihara materi pembelajaran tanpa harus melakukan coding.
+> Dokumen ini merupakan spesifikasi backend untuk **EduPlatform**, khususnya untuk memastikan guru dapat membuat, mengunggah, mengedit, mengorganisasi, memublikasikan, dan memelihara materi pembelajaran tanpa harus melakukan coding.
 
 ---
 
-# 1. Tujuan Backend Biologi.id
+# 1. Tujuan Backend EduPlatform
 
-Backend Biologi.id tidak hanya bertugas menyimpan data. Backend harus menjadi fondasi untuk:
+Backend EduPlatform tidak hanya bertugas menyimpan data. Backend harus menjadi fondasi untuk:
 
 - akun guru dan siswa;
 - course, module, dan lesson;
@@ -49,7 +49,7 @@ Supabase menyediakan PostgreSQL, Auth, Storage, Data API, dan Edge Functions dal
 
 # 2. Pembagian Sistem
 
-Biologi.id memiliki dua pengalaman utama:
+EduPlatform memiliki dua pengalaman utama:
 
 ```text
                     BIOLOGI.ID
@@ -153,7 +153,7 @@ Guru melihat ringkasan aktivitas kerja, bukan hanya statistik siswa.
 
 ```text
 ┌──────────────────────────────────────────────────────────┐
-│ Biologi.id Admin                         👤 Guru         │
+│ EduPlatform Admin                         👤 Guru         │
 ├───────────────┬──────────────────────────────────────────┤
 │ Dashboard     │ Selamat datang kembali                  │
 │               │                                          │
@@ -217,7 +217,7 @@ PUBLISH
 
 # 6. Dua Cara Guru Membuat Materi
 
-Biologi.id harus mendukung dua workflow.
+EduPlatform harus mendukung dua workflow.
 
 ## Workflow A — Membuat materi langsung
 
@@ -1786,7 +1786,7 @@ Setelah fondasi stabil:
 
 ---
 
-# 53. Prinsip Arsitektur Biologi.id
+# 53. Prinsip Arsitektur EduPlatform
 
 ### Content First
 
@@ -1865,13 +1865,13 @@ PUBLISH
 
 **Guru tidak perlu membuka Supabase Dashboard untuk pekerjaan sehari-hari.**
 
-Supabase Dashboard hanya menjadi alat administrasi developer/admin. Guru bekerja melalui **Teacher Dashboard Biologi.id**.
+Supabase Dashboard hanya menjadi alat administrasi developer/admin. Guru bekerja melalui **Teacher Dashboard EduPlatform**.
 
 ---
 
 # 55. Kesimpulan
 
-Backend Biologi.id harus dibangun sebagai **CMS + Learning Platform**, bukan sekadar database.
+Backend EduPlatform harus dibangun sebagai **CMS + Learning Platform**, bukan sekadar database.
 
 Pusat pengalaman guru adalah:
 
@@ -1903,4 +1903,4 @@ Bulan depan:
 Genetika
 ```
 
-Semuanya menggunakan **mesin Biologi.id yang sama**; yang berubah adalah kontennya.
+Semuanya menggunakan **mesin EduPlatform yang sama**; yang berubah adalah kontennya.

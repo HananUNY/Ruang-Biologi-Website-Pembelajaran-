@@ -19,9 +19,9 @@ const props = defineProps({
         </router-link>
         
         <router-link to="/" class="flex items-center gap-3">
-          <img src="/logo-ruang-biologi.png" alt="Logo Ruang Biologi" class="h-10 w-auto shrink-0 hidden sm:block" />
+          <img src="/logo-template.png" alt="Logo EduPlatform" class="h-10 w-auto shrink-0 hidden sm:block" />
           <div class="flex flex-col">
-            <span class="font-sf-rounded text-2xl text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary tracking-tight font-extrabold">Ruang Biologi</span>
+            <span class="font-sf-rounded text-2xl text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary tracking-tight font-extrabold">EduPlatform</span>
             <span class="font-label-sm text-xs text-on-surface-variant uppercase tracking-wider hidden sm:block">Biologi SMA</span>
           </div>
         </router-link>

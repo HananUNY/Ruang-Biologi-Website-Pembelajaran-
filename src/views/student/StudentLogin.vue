@@ -38,8 +38,8 @@ const handleLogin = async () => {
         <div class="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r from-primary to-secondary"></div>
         
         <div class="text-center mb-10 flex flex-col items-center">
-          <img src="/logo-ruang-biologi.png" alt="Logo Ruang Biologi" class="h-16 w-auto mb-4" />
-          <h1 class="font-sf-rounded font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary tracking-tight text-3xl mb-2">Ruang Biologi</h1>
+          <img src="/logo-template.png" alt="Logo EduPlatform" class="h-16 w-auto mb-4" />
+          <h1 class="font-sf-rounded font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary tracking-tight text-3xl mb-2">EduPlatform</h1>
           <p class="text-on-surface-variant font-medium">Portal Belajar Siswa</p>
         </div>
 

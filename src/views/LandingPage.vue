@@ -442,11 +442,11 @@ const setExperimentTemp = (type) => {
           <div class="shrink-0 flex flex-col items-center gap-4 relative z-10">
             <div class="w-24 h-24 sm:w-32 sm:h-32 rounded-full p-[3px] bg-gradient-to-tr from-primary via-secondary to-primary-fixed shadow-md">
               <div class="w-full h-full rounded-full bg-surface-container-lowest flex items-center justify-center relative overflow-hidden border border-outline-variant/30">
-                <img src="https://media.licdn.com/dms/image/v2/D5603AQGo5K0vDRXa-A/profile-displayphoto-crop_800_800/B56ZsIw93jG4AI-/0/1765378613479?e=1792022400&v=beta&t=M5EA79XBeV5uRKfPPvVSBe5gA10FOjn8GdrSnhJ3oZg" alt="Hanan Dimas Prasetya" class="w-full h-full object-cover">
+                <img src="https://via.placeholder.com/800" alt="[Author Name]" class="w-full h-full object-cover">
               </div>
             </div>
             <div class="flex flex-col items-center">
-              <h3 class="font-headline-md text-xl sm:text-2xl text-on-surface font-extrabold tracking-tight">Hanan Dimas Prasetya</h3>
+              <h3 class="font-headline-md text-xl sm:text-2xl text-on-surface font-extrabold tracking-tight">[Author Name]</h3>
               <p class="font-label-sm text-xs text-primary font-bold uppercase tracking-widest mt-1">Lead Creator &amp; Educator</p>
             </div>
           </div>
@@ -471,7 +471,7 @@ const setExperimentTemp = (type) => {
                   Demi kualitas server, pembuatan akun baru ditutup sementara. Jika Anda guru atau perwakilan sekolah mitra, silakan hubungi kami.
                 </p>
               </div>
-              <a href="mailto:hanan.dimas44@gmail.com?subject=Permohonan%20Akses%20Ruang%20Biologi" class="shrink-0 w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-primary text-on-primary font-semibold text-sm hover:bg-primary-container transition-all shadow-sm hover:shadow transform hover:-translate-y-0.5">
+              <a href="mailto:contact@example.com?subject=Permohonan%20Akses%20Ruang%20Biologi" class="shrink-0 w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-primary text-on-primary font-semibold text-sm hover:bg-primary-container transition-all shadow-sm hover:shadow transform hover:-translate-y-0.5">
                 <span class="material-symbols-outlined text-[18px]">mail</span>
                 Hubungi Admin
               </a>
@@ -492,9 +492,9 @@ const setExperimentTemp = (type) => {
         <!-- Column 1: Brand & Desc -->
         <div class="lg:col-span-2 flex flex-col gap-5">
           <div class="flex items-center gap-3">
-            <img src="/logo-ruang-biologi.png" alt="Logo Ruang Biologi" class="h-10 w-auto shrink-0" />
+            <img src="/logo-template.png" alt="Logo EduPlatform" class="h-10 w-auto shrink-0" />
             <div class="flex flex-col">
-              <span class="font-sf-rounded text-2xl text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary tracking-tight font-extrabold">Ruang Biologi</span>
+              <span class="font-sf-rounded text-2xl text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary tracking-tight font-extrabold">EduPlatform</span>
               <span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest text-[10px]">Biologi SMA</span>
             </div>
           </div>
@@ -521,7 +521,7 @@ const setExperimentTemp = (type) => {
             <li><router-link to="/teacher/login" class="hover:text-secondary transition-colors inline-flex items-center gap-2"><span class="material-symbols-outlined text-[16px]">school</span> Login Guru</router-link></li>
             <li><router-link to="/student/login" class="hover:text-secondary transition-colors inline-flex items-center gap-2"><span class="material-symbols-outlined text-[16px]">face</span> Login Siswa</router-link></li>
             <li>
-              <a href="mailto:hanan.dimas44@gmail.com" class="hover:text-primary transition-colors inline-flex items-center gap-2 mt-2">
+              <a href="mailto:contact@example.com" class="hover:text-primary transition-colors inline-flex items-center gap-2 mt-2">
                 <span class="material-symbols-outlined text-[16px]">mail</span> Hubungi Admin
               </a>
             </li>
@@ -532,9 +532,9 @@ const setExperimentTemp = (type) => {
       <!-- Bottom Copyright & Links -->
       <div class="pt-8 border-t border-outline-variant/30 flex flex-col md:flex-row items-center justify-between gap-4 text-on-surface-variant font-label-md text-xs">
         <p class="text-center md:text-left flex flex-col sm:flex-row sm:gap-1">
-          <span>&copy; {{ new Date().getFullYear() }} Ruang Biologi. Hak cipta dilindungi.</span>
+          <span>&copy; {{ new Date().getFullYear() }} EduPlatform. Hak cipta dilindungi.</span>
           <span class="hidden sm:inline">|</span>
-          <span>Inisiator &amp; Pengembang: <strong class="text-primary">Hanan Dimas Prasetya</strong></span>
+          <span>Inisiator &amp; Pengembang: <strong class="text-primary">[Author Name]</strong></span>
         </p>
         <div class="flex items-center gap-6">
           <span class="hover:text-primary cursor-pointer transition-colors">Kebijakan Privasi</span>

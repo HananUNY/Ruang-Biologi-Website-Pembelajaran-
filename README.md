@@ -1,11 +1,11 @@
-# Ruang Biologi (Biologi SMA) 🧬
+# EduPlatform (Biologi SMA) 🧬
 
 ![Status](https://img.shields.io/badge/Status-Beta-yellow.svg)
 ![Vue](https://img.shields.io/badge/Vue.js-3.x-4fc08d?logo=vue.js)
 ![Tailwind](https://img.shields.io/badge/TailwindCSS-3.x-38bdf8?logo=tailwind-css)
 ![Supabase](https://img.shields.io/badge/Supabase-Backend-3ecf8e?logo=supabase)
 
-Ruang Biologi adalah platform pembelajaran biologi modern yang dirancang khusus untuk siswa dan guru SMA. Dibangun dengan fokus pada antarmuka premium, interaktif, dan mudah digunakan (UI/UX), platform ini juga dilengkapi dengan fitur Laboratorium Virtual terintegrasi.
+EduPlatform adalah platform pembelajaran biologi modern yang dirancang khusus untuk siswa dan guru SMA. Dibangun dengan fokus pada antarmuka premium, interaktif, dan mudah digunakan (UI/UX), platform ini juga dilengkapi dengan fitur Laboratorium Virtual terintegrasi.
 
 ## ✨ Fitur Utama
 

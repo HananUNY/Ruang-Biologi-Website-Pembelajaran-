@@ -1,4 +1,4 @@
-# Konsep Arsitektur Virtual Lab di Biologi.id
+# Konsep Arsitektur Virtual Lab di EduPlatform
 
 Dokumen ini menjelaskan mengapa kita memiliki **dua** jalur pembuatan Virtual Lab ("Mandiri" vs "Course") dan bagaimana cara kerjanya, agar mempermudah pemahaman logika *database* dan *flow* aplikasi.
 

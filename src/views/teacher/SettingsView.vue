@@ -220,7 +220,7 @@ const tabs = [
         <!-- Tab: Preferensi -->
         <div v-else-if="currentTab === 'preferences'" class="space-y-6 animate-fade-in">
           <h2 class="text-xl font-bold text-on-surface mb-2">Preferensi Aplikasi</h2>
-          <p class="text-on-surface-variant text-sm mb-6 pb-6 border-b border-outline-variant/20">Sesuaikan tampilan dan alur kerja aplikasi Ruang Biologi Anda.</p>
+          <p class="text-on-surface-variant text-sm mb-6 pb-6 border-b border-outline-variant/20">Sesuaikan tampilan dan alur kerja aplikasi EduPlatform Anda.</p>
           
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
@@ -273,7 +273,7 @@ const tabs = [
               <input type="checkbox" v-model="notificationData.pushAlerts" class="w-5 h-5 mt-1 accent-primary">
               <div>
                 <span class="block font-bold text-on-surface mb-1">Peringatan Langsung (Push Notifications)</span>
-                <span class="text-sm text-on-surface-variant">Tampilkan popup di *browser* saat ada pengumuman mendesak dari platform Ruang Biologi.</span>
+                <span class="text-sm text-on-surface-variant">Tampilkan popup di *browser* saat ada pengumuman mendesak dari platform EduPlatform.</span>
               </div>
             </label>
           </div>

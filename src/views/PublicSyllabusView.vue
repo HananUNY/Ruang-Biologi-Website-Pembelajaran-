@@ -259,7 +259,7 @@ const getLessonPillClass = (type) => {
                   <span class="font-label-sm text-label-sm uppercase font-bold tracking-wider">Metode Efektif Belajar</span>
                 </div>
                 <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-2">
-                  Pedoman 4 Format Ruang Biologi
+                  Pedoman 4 Format EduPlatform
                 </h3>
                 <p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
                   Dirancang selaras dengan teori retensi sains: dari pemahaman teks konseptual hingga validasi empiris di simulator.

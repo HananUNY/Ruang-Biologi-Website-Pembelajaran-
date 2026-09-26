@@ -94,7 +94,7 @@ onMounted(async () => {
     <!-- Instructions -->
     <div class="mt-4">
       <div class="pb-6 text-center max-w-2xl mx-auto">
-        <h3 class="font-sf-rounded text-2xl lg:text-3xl text-on-surface font-bold">3 Langkah Mudah Belajar di Ruang Biologi</h3>
+        <h3 class="font-sf-rounded text-2xl lg:text-3xl text-on-surface font-bold">3 Langkah Mudah Belajar di EduPlatform</h3>
         <p class="font-body-sm text-body-sm text-on-surface-variant mt-2">Format multimodal terarah untuk pengalaman belajar yang lebih mendalam dan menyenangkan.</p>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">

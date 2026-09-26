@@ -47,8 +47,8 @@ const displayName = computed(() => {
     >
       <div class="h-16 flex items-center justify-between px-4 border-b border-outline-variant/30">
         <div class="flex items-center gap-2 overflow-hidden" v-if="isSidebarOpen">
-          <img src="/logo-ruang-biologi.png" alt="Logo Ruang Biologi" class="h-6 w-auto" />
-          <span class="font-sf-rounded text-2xl text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary tracking-tight font-extrabold ml-1">Ruang Biologi</span>
+          <img src="/logo-template.png" alt="Logo EduPlatform" class="h-6 w-auto" />
+          <span class="font-sf-rounded text-2xl text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary tracking-tight font-extrabold ml-1">EduPlatform</span>
           <span class="text-xs uppercase bg-primary-container text-on-primary-container px-1.5 py-0.5 rounded font-bold">Guru</span>
         </div>
         <button @click="toggleSidebar" class="p-1 rounded hover:bg-surface-container text-outline hover:text-on-surface transition-colors flex-shrink-0 mx-auto">
@@ -135,7 +135,7 @@ const displayName = computed(() => {
               </div>
               <div class="flex flex-col items-start hidden sm:flex max-w-[120px]">
                 <span class="text-xs font-bold leading-tight truncate w-full text-left">{{ displayName }}</span>
-                <span class="font-sf-rounded text-[10px] text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary font-extrabold leading-tight">Ruang Biologi</span>
+                <span class="font-sf-rounded text-[10px] text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary font-extrabold leading-tight">EduPlatform</span>
               </div>
               <span class="material-symbols-outlined text-[16px] text-outline transition-transform" :class="isProfileDropdownOpen ? 'rotate-180' : ''">expand_more</span>
             </button>

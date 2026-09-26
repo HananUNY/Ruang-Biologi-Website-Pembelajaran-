@@ -36,9 +36,9 @@ const handleLogout = async () => {
       <div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between gap-4">
         <!-- Logo -->
         <div class="flex items-center gap-3">
-          <img src="/logo-ruang-biologi.png" alt="Logo Ruang Biologi" class="h-10 w-auto shrink-0" />
+          <img src="/logo-template.png" alt="Logo EduPlatform" class="h-10 w-auto shrink-0" />
           <div class="flex flex-col">
-            <span class="font-sf-rounded text-xl text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary tracking-tight font-extrabold">Ruang Biologi</span>
+            <span class="font-sf-rounded text-xl text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary tracking-tight font-extrabold">EduPlatform</span>
             <span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Biologi SMA</span>
           </div>
         </div>
@@ -89,13 +89,13 @@ const handleLogout = async () => {
     <footer class="w-full bg-surface-container-low mt-10">
       <div class="max-w-7xl mx-auto px-6 lg:px-12 py-10 flex flex-col md:flex-row items-center justify-between gap-4">
         <div class="flex items-center gap-2">
-          <img src="/logo-ruang-biologi.png" alt="Logo Ruang Biologi" class="h-8 w-auto shrink-0" />
-          <span class="font-sf-rounded text-lg text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary font-extrabold ml-1">Ruang Biologi</span>
+          <img src="/logo-template.png" alt="Logo EduPlatform" class="h-8 w-auto shrink-0" />
+          <span class="font-sf-rounded text-lg text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary font-extrabold ml-1">EduPlatform</span>
           <span class="text-outline text-body-sm">•</span>
           <span class="font-body-sm text-on-surface-variant">Biologi SMA</span>
         </div>
         <div class="font-label-md text-xs text-on-surface-variant text-center md:text-right">
-          © 2024 Ruang Biologi · Biologi SMA · Kurikulum Merdeka
+          © 2024 EduPlatform · Biologi SMA · Kurikulum Merdeka
         </div>
       </div>
     </footer>

@@ -1,6 +1,6 @@
-# Panduan Desain & Antarmuka Biologi.id (Style Guide)
+# Panduan Desain & Antarmuka EduPlatform (Style Guide)
 
-Panduan ini bertujuan untuk menjaga konsistensi desain visual dan struktur komponen pada seluruh platform **Biologi.id**, khususnya dalam pengembangan modul **Laboratorium Virtual** di masa mendatang.
+Panduan ini bertujuan untuk menjaga konsistensi desain visual dan struktur komponen pada seluruh platform **EduPlatform**, khususnya dalam pengembangan modul **Laboratorium Virtual** di masa mendatang.
 
 ---
 
@@ -114,4 +114,4 @@ Gunakan `bg-primary`, tambahkan *shadow*, dan efek skala (`active:scale-95`) saa
 - **Ikon Beranimasi**: Saat sistem sedang memproses logika praktikum (seperti mengaduk larutan, memanaskan tabung), gunakan ikon dengan rotasi (`animate-spin`) atau denyut (`animate-pulse`).
 
 ---
-Dengan mengikuti pola-pola HTML/Tailwind di atas, setiap modul kanvas dan antarmuka laboratorium virtual yang dikembangkan ke depannya dijamin akan memiliki konsistensi visual 100% selaras dengan identitas **Biologi.id**.
+Dengan mengikuti pola-pola HTML/Tailwind di atas, setiap modul kanvas dan antarmuka laboratorium virtual yang dikembangkan ke depannya dijamin akan memiliki konsistensi visual 100% selaras dengan identitas **EduPlatform**.
